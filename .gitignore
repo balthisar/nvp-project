@@ -1,0 +1,25 @@
+# --- Python / Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+
+# --- Build / Distribution ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Local Config / Sockets ---
+# Don't track your personal configuration file
+nvp.conf
+# Don't track any temporary nvim sockets if they end up in the repo root
+nvimsocket-*
+
+# --- System ---
+.DS_Store
+Thumbs.db
+
